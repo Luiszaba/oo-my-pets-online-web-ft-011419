@@ -82,11 +82,10 @@ class Owner
     pets.each do |type, pet|
       pet.each do |chg_mood|
       chg_mood.mood = "nervous"
-end
-self.reset_all
-end
-end
-  
+      end
+      self.reset_all
+      end
+  end
 end
   
   
