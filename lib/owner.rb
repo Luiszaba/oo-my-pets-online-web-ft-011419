@@ -86,7 +86,7 @@ class Owner
       pet.each do |chg_mood|
       chg_mood.mood = "nervous"
       end
-      @@all.class.clear
+      @@all.clear
       end
   end
 end
