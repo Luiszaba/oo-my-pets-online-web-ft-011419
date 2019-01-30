@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   
   @@all = []
@@ -80,6 +82,7 @@ class Owner
   #sell and change pets mood
   def sell_pets
     pets.each do |type, pet|
+      binding.pry
       pet.each do |chg_mood|
       chg_mood.mood = "nervous"
       end
