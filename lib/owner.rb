@@ -1,4 +1,4 @@
-8require 'pry'
+require 'pry'
 
 class Owner
   
@@ -31,7 +31,7 @@ class Owner
   
   def list_pets
     pets[:pets]
-    "I have #{fish.count} fish, #{dogs.count} dog(s), #{cats.count} cat(s)."
+    "I have #{fish.count} fish, #{dog.count} dog(s), #{cat.count} cat(s)."
   end
   
   
