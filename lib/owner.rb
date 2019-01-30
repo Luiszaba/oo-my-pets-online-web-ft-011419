@@ -82,11 +82,11 @@ class Owner
   #sell and change pets mood
   def sell_pets
     pets.each do |type, pet|
-      binding.pry
+      #binding.pry
       pet.each do |chg_mood|
       chg_mood.mood = "nervous"
       end
-      chg_mood.clear
+      chg_mood.reset_all
       end
   end
 end
