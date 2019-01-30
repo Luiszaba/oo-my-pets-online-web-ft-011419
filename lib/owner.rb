@@ -30,7 +30,8 @@ class Owner
   end
   
   def list_pets
-    pets[:pets].collect {|pet_list| pet_list}
+    pets[:pets]
+    ""
   end
   
   
