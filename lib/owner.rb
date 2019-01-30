@@ -85,9 +85,8 @@ class Owner
       #binding.pry
       pet.each do |chg_mood|
       chg_mood.mood = "nervous"
-      chg_mood = pets
       end
-      pets.reset_all
+      clear
       end
   end
 end
